@@ -20,7 +20,7 @@ synaptic_weights = 2 * np.random.random((3,1)) - 1
 print("Random starting synaptic weights: = ")
 print(synaptic_weights)
 
-for iteration in range(1000000):
+for iteration in range(10000):
 
     input_layer = training_input
 
@@ -37,3 +37,6 @@ print(synaptic_weights)
 
 print("outputs after training: ")
 print( outputs)
+
+print("erwarteter output: ")
+print(training_outputs)
