@@ -38,6 +38,6 @@ print(synaptic_weights)
 
 print("outputs after training: ")
 print( outputs)
-
+# Ausgabe für die erwarteten antworten
 print("erwarteter output: ")
 print(training_outputs)
