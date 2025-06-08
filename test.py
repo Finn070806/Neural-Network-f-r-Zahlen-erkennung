@@ -35,7 +35,7 @@ for iteration in range(100000):
 
 print("Synapric weights after training = ")
 print(synaptic_weights)
-
+#Ausgabe für die ergebnisse nach dem training
 print("outputs after training: ")
 print( outputs)
 # Ausgabe für die erwarteten antworten
