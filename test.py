@@ -1,5 +1,5 @@
 import numpy as np # type: ignore
-
+# Funktion für Ausgabe begrenzung
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))
 
